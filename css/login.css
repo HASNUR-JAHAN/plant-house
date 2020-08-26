@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding:0;
+    
+    background-image:url(flower%20image%208.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.loginbox{
+    position:absolute;
+    top:50%;
+    left:50%;
+    right: 50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:420px;
+    padding: 50px 40px;
+    box-sizing:border-box;
+    background-color: rgba(8, 0, 168, 0.8);
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+
+@keyframes example {
+  from {background:rgba(204, 0, 204,0.6);}
+  to {background-color: rgba(8, 0, 168, 0.8);}
+}
+.registration{
+    padding: 30px 40px;
+    height:670px;
+    margin-bottom: 0;
+    font-size: small;
+}
+.user{
+    width: 100pxh;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% );   
+        
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: lavenderblush;
+    text-align: center;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:floralwhite;
+}
+.registration p{
+    
+    font-weight: normal;
+}
+.loginbox input{
+    widows: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+}
+
+
+::placeholder{
+    color: rgba(26, 29, 34,0.8);
+}
+
+.loginbox button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 270px;
+    color: dodgerblue;
+    font-size: 16px;
+    background: floralwhite;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.loginbox input[type="submit"]:hover{
+    background: cornflowerblue;
+    color: darkblue;  
+    
+}
+
+.loginbox a{
+    color:floralwhite;
+    font-size: 14px;
+    font-weight: bold;
+}
